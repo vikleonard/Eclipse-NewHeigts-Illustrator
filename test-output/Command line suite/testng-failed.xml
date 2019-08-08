@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Illustrator.TestScenarios">
+        <methods>
+          <include name="TS23_NoneNaicVariableAssumed"/>
+          <include name="TS08_IncomeNoNaicLABackcasted"/>
+          <include name="TS37_EDBwBNaicStrongest"/>
+          <include name="TS43_IncomeBonusMozaLevelAssumed"/>
+          <include name="TS27_IncomeNaicVariableAssumed"/>
+          <include name="TS21_NoneNaicStrongest"/>
+          <include name="TS38_EDBwBNaicLevelAssumed"/>
+          <include name="beforeMethod"/>
+          <include name="TS03_NoneNoNaicVariableAssumed"/>
+          <include name="TS28_IncomeNaicLABackcasted"/>
+          <include name="TS32_IncomeBonusNaicLABackcasted"/>
+          <include name="TS35_EDBNaicVariableAssumed"/>
+          <include name="afterMethod"/>
+          <include name="TS20_EDBwBNoNaicLABackcasted"/>
+          <include name="TS18_EDBwBNoNaicLevelAssumed"/>
+          <include name="TS31_IncomeBonusNaicVariableAssumed"/>
+          <include name="TS22_NoneNaicLevelAssumed"/>
+          <include name="TS44_EDBMozaLevelAssumed"/>
+          <include name="TS01_NoneNoNaicStrongest"/>
+          <include name="TS30_IncomeBonusNaicLevelAssumed"/>
+          <include name="TS45_EDBwBMozaLevelAssumed"/>
+          <include name="TS16_EDBNoNaicLABackcasted"/>
+          <include name="TS34_EDBNaicLevelAssumed"/>
+          <include name="TS42_IncomeMozaLevelAssumed"/>
+          <include name="TS36_EDBNaicLABackcasted"/>
+          <include name="TS29_IncomeBonusNaicStrongest"/>
+          <include name="TS07_IncomeNoNaicVariableAssumed"/>
+          <include name="TS26_IncomeNaicLevelAssumed"/>
+          <include name="TS15_EDBNoNaicVariableAssumed"/>
+          <include name="TS39_EDBwBNaicVariableAssumed"/>
+          <include name="TS02_NoneNoNaicLevelAssumed"/>
+          <include name="initialSetUp"/>
+          <include name="TS24_NoneNaicLABackcasted"/>
+          <include name="TS010_IncomeBonusNoNaicLevelAssumed"/>
+          <include name="TS12_IncomeBonusNoNaicLABackcasted"/>
+          <include name="TS13_EDBNoNaicStrongest"/>
+          <include name="TS14_EDBNoNaicLevelAssumed"/>
+          <include name="TS25_IncomeNaicStrongest"/>
+          <include name="TS17_EDBwBNoNaicStrongest"/>
+          <include name="TS05_IncomeNoNaicStrongest"/>
+          <include name="TS04_NoneNoNaicLABackcasted"/>
+          <include name="TS33_EDBNaicStrongest"/>
+          <include name="TS41_NoneMozaLevelAssumed"/>
+          <include name="TS11_IncomeBonusNoNaicVariableAssumed"/>
+          <include name="TS06_IncomeNoNaicLevelAssumed"/>
+          <include name="TS19_EDBwBNoNaicVariableAssumed"/>
+          <include name="TS09_IncomeBonusNoNaicStrongest"/>
+        </methods>
+      </class> <!-- Illustrator.TestScenarios -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="50" passed="47">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2065469" started-at="2019-06-27T19:27:57Z" finished-at="2019-06-27T20:02:22Z">
+    <groups>
+      <group name="EDB">
+        <method signature="TestScenarios.TS13_EDBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS13_EDBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS14_EDBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS14_EDBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS15_EDBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS15_EDBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS16_EDBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS16_EDBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS33_EDBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS33_EDBNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS34_EDBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS34_EDBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS35_EDBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS35_EDBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS36_EDBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS36_EDBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS49_EDBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS49_EDBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS54_EDBZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS54_EDBZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- EDB -->
+      <group name="IncomeBonus">
+        <method signature="TestScenarios.TS09_IncomeBonusNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS09_IncomeBonusNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS10_IncomeBonusNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS10_IncomeBonusNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS11_IncomeBonusNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS11_IncomeBonusNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS12_IncomeBonusNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS12_IncomeBonusNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS29_IncomeBonusNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS29_IncomeBonusNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS30_IncomeBonusNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS30_IncomeBonusNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS31_IncomeBonusNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS31_IncomeBonusNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS32_IncomeBonusNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS32_IncomeBonusNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS48_IncomeBonusMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS48_IncomeBonusMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS53_IncomeBonusZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS53_IncomeBonusZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- IncomeBonus -->
+      <group name="Zebra">
+        <method signature="TestScenarios.TS51_NoneZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS51_NoneZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS52_IncomeZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS52_IncomeZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS53_IncomeBonusZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS53_IncomeBonusZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS54_EDBZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS54_EDBZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- Zebra -->
+      <group name="MozaicII">
+        <method signature="TestScenarios.TS46_NoneMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS46_NoneMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS47_IncomeMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS47_IncomeMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS48_IncomeBonusMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS48_IncomeBonusMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS49_EDBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS49_EDBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS50_EDBwBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS50_EDBwBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- MozaicII -->
+      <group name="Income">
+        <method signature="TestScenarios.TS05_IncomeNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS05_IncomeNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS06_IncomeNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS06_IncomeNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS07_IncomeNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS07_IncomeNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS08_IncomeNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS08_IncomeNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS25_IncomeNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS25_IncomeNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS26_IncomeNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS26_IncomeNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS27_IncomeNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS27_IncomeNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS28_IncomeNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS28_IncomeNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS47_IncomeMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS47_IncomeMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS52_IncomeZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS52_IncomeZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- Income -->
+      <group name="Strongest">
+        <method signature="TestScenarios.TS01_NoneNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS01_NoneNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS05_IncomeNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS05_IncomeNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS09_IncomeBonusNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS09_IncomeBonusNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS13_EDBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS13_EDBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS17_EDBwBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS17_EDBwBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS21_NoneNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS21_NoneNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS25_IncomeNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS25_IncomeNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS29_IncomeBonusNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS29_IncomeBonusNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS33_EDBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS33_EDBNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS37_EDBwBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS37_EDBwBNaicStrongest" class="Illustrator.TestScenarios"/>
+      </group> <!-- Strongest -->
+      <group name="Naic">
+        <method signature="TestScenarios.TS21_NoneNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS21_NoneNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS22_NoneNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS22_NoneNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS23_NoneNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS23_NoneNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS24_NoneNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS24_NoneNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS25_IncomeNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS25_IncomeNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS26_IncomeNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS26_IncomeNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS27_IncomeNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS27_IncomeNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS28_IncomeNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS28_IncomeNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS29_IncomeBonusNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS29_IncomeBonusNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS30_IncomeBonusNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS30_IncomeBonusNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS31_IncomeBonusNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS31_IncomeBonusNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS32_IncomeBonusNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS32_IncomeBonusNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS33_EDBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS33_EDBNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS34_EDBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS34_EDBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS35_EDBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS35_EDBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS36_EDBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS36_EDBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS37_EDBwBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS37_EDBwBNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS38_EDBwBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS38_EDBwBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS39_EDBwBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS39_EDBwBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS40_EDBwBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS40_EDBwBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+      </group> <!-- Naic -->
+      <group name="LABackcasted">
+        <method signature="TestScenarios.TS04_NoneNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS04_NoneNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS08_IncomeNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS08_IncomeNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS12_IncomeBonusNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS12_IncomeBonusNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS16_EDBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS16_EDBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS20_EDBwBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS20_EDBwBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS24_NoneNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS24_NoneNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS28_IncomeNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS28_IncomeNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS32_IncomeBonusNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS32_IncomeBonusNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS36_EDBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS36_EDBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS40_EDBwBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS40_EDBwBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+      </group> <!-- LABackcasted -->
+      <group name="Moza">
+        <method signature="TestScenarios.TS55_EDBwBMozaLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS55_EDBwBMozaLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- Moza -->
+      <group name="VariableAssumed">
+        <method signature="TestScenarios.TS03_NoneNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS03_NoneNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS07_IncomeNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS07_IncomeNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS11_IncomeBonusNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS11_IncomeBonusNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS15_EDBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS15_EDBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS19_EDBwBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS19_EDBwBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS23_NoneNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS23_NoneNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS27_IncomeNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS27_IncomeNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS31_IncomeBonusNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS31_IncomeBonusNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS35_EDBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS35_EDBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS39_EDBwBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS39_EDBwBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- VariableAssumed -->
+      <group name="EDBBonus">
+        <method signature="TestScenarios.TS17_EDBwBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS17_EDBwBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS18_EDBwBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS18_EDBwBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS19_EDBwBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS19_EDBwBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS20_EDBwBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS20_EDBwBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS37_EDBwBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS37_EDBwBNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS38_EDBwBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS38_EDBwBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS39_EDBwBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS39_EDBwBNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS40_EDBwBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS40_EDBwBNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS50_EDBwBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS50_EDBwBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS55_EDBwBMozaLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS55_EDBwBMozaLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- EDBBonus -->
+      <group name="NoNaic">
+        <method signature="TestScenarios.TS01_NoneNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS01_NoneNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS02_NoneNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS02_NoneNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS03_NoneNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS03_NoneNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS04_NoneNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS04_NoneNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS05_IncomeNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS05_IncomeNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS06_IncomeNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS06_IncomeNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS07_IncomeNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS07_IncomeNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS08_IncomeNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS08_IncomeNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS09_IncomeBonusNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS09_IncomeBonusNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS10_IncomeBonusNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS10_IncomeBonusNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS11_IncomeBonusNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS11_IncomeBonusNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS12_IncomeBonusNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS12_IncomeBonusNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS13_EDBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS13_EDBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS14_EDBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS14_EDBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS15_EDBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS15_EDBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS16_EDBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS16_EDBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS17_EDBwBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS17_EDBwBNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS18_EDBwBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS18_EDBwBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS19_EDBwBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS19_EDBwBNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS20_EDBwBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS20_EDBwBNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+      </group> <!-- NoNaic -->
+      <group name="LevelAssumed">
+        <method signature="TestScenarios.TS02_NoneNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS02_NoneNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS06_IncomeNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS06_IncomeNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS10_IncomeBonusNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS10_IncomeBonusNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS14_EDBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS14_EDBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS18_EDBwBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS18_EDBwBNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS22_NoneNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS22_NoneNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS26_IncomeNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS26_IncomeNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS30_IncomeBonusNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS30_IncomeBonusNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS34_EDBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS34_EDBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS38_EDBwBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS38_EDBwBNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS46_NoneMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS46_NoneMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS47_IncomeMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS47_IncomeMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS48_IncomeBonusMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS48_IncomeBonusMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS49_EDBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS49_EDBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS50_EDBwBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS50_EDBwBMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS51_NoneZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS51_NoneZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS52_IncomeZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS52_IncomeZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS53_IncomeBonusZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS53_IncomeBonusZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS54_EDBZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS54_EDBZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS55_EDBwBMozaLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS55_EDBwBMozaLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- LevelAssumed -->
+      <group name="None">
+        <method signature="TestScenarios.TS01_NoneNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS01_NoneNoNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS02_NoneNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS02_NoneNoNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS03_NoneNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS03_NoneNoNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS04_NoneNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS04_NoneNoNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS21_NoneNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS21_NoneNaicStrongest" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS22_NoneNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS22_NoneNaicLevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS23_NoneNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS23_NoneNaicVariableAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS24_NoneNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS24_NoneNaicLABackcasted" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS46_NoneMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS46_NoneMozaicIILevelAssumed" class="Illustrator.TestScenarios"/>
+        <method signature="TestScenarios.TS51_NoneZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS51_NoneZebraLevelAssumed" class="Illustrator.TestScenarios"/>
+      </group> <!-- None -->
+    </groups>
+    <test name="Default test" duration-ms="2065469" started-at="2019-06-27T19:27:57Z" finished-at="2019-06-27T20:02:22Z">
+      <class name="Illustrator.TestScenarios">
+        <test-method status="PASS" signature="initialSetUp()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="initialSetUp" is-config="true" duration-ms="2747" started-at="2019-06-27T19:27:57Z" finished-at="2019-06-27T19:27:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1879" started-at="2019-06-27T19:27:59Z" finished-at="2019-06-27T19:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS01_NoneNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS01_NoneNoNaicStrongest" duration-ms="43767" started-at="2019-06-27T19:28:01Z" finished-at="2019-06-27T19:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS01_NoneNoNaicStrongest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:28:45Z" finished-at="2019-06-27T19:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="686" started-at="2019-06-27T19:28:45Z" finished-at="2019-06-27T19:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS02_NoneNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS02_NoneNoNaicLevelAssumed" duration-ms="34553" started-at="2019-06-27T19:28:46Z" finished-at="2019-06-27T19:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS02_NoneNoNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:29:20Z" finished-at="2019-06-27T19:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="717" started-at="2019-06-27T19:29:20Z" finished-at="2019-06-27T19:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS03_NoneNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS03_NoneNoNaicVariableAssumed" duration-ms="35549" started-at="2019-06-27T19:29:21Z" finished-at="2019-06-27T19:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS03_NoneNoNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:29:56Z" finished-at="2019-06-27T19:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="781" started-at="2019-06-27T19:29:56Z" finished-at="2019-06-27T19:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS04_NoneNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS04_NoneNoNaicLABackcasted" duration-ms="31446" started-at="2019-06-27T19:29:57Z" finished-at="2019-06-27T19:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS04_NoneNoNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-27T19:30:29Z" finished-at="2019-06-27T19:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="853" started-at="2019-06-27T19:30:29Z" finished-at="2019-06-27T19:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS05_IncomeNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS05_IncomeNoNaicStrongest" duration-ms="41081" started-at="2019-06-27T19:30:30Z" finished-at="2019-06-27T19:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS05_IncomeNoNaicStrongest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="538" started-at="2019-06-27T19:31:11Z" finished-at="2019-06-27T19:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:31:11Z" finished-at="2019-06-27T19:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS06_IncomeNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS06_IncomeNoNaicLevelAssumed" duration-ms="42702" started-at="2019-06-27T19:31:11Z" finished-at="2019-06-27T19:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS06_IncomeNoNaicLevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="862" started-at="2019-06-27T19:31:54Z" finished-at="2019-06-27T19:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:31:54Z" finished-at="2019-06-27T19:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS07_IncomeNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS07_IncomeNoNaicVariableAssumed" duration-ms="40863" started-at="2019-06-27T19:31:55Z" finished-at="2019-06-27T19:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS07_IncomeNoNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-27T19:32:36Z" finished-at="2019-06-27T19:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="784" started-at="2019-06-27T19:32:36Z" finished-at="2019-06-27T19:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS08_IncomeNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS08_IncomeNoNaicLABackcasted" duration-ms="39993" started-at="2019-06-27T19:32:36Z" finished-at="2019-06-27T19:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS08_IncomeNoNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-27T19:33:16Z" finished-at="2019-06-27T19:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="870" started-at="2019-06-27T19:33:16Z" finished-at="2019-06-27T19:33:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TS09_IncomeBonusNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS09_IncomeBonusNoNaicStrongest" duration-ms="4140" started-at="2019-06-27T19:33:17Z" finished-at="2019-06-27T19:33:21Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 223). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 223). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+at Illustrator.TestScenarios.TS09_IncomeBonusNoNaicStrongest(TestScenarios.java:608)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS09_IncomeBonusNoNaicStrongest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="797" started-at="2019-06-27T19:33:21Z" finished-at="2019-06-27T19:33:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:33:21Z" finished-at="2019-06-27T19:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS10_IncomeBonusNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS10_IncomeBonusNoNaicLevelAssumed" duration-ms="42936" started-at="2019-06-27T19:33:22Z" finished-at="2019-06-27T19:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS10_IncomeBonusNoNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:34:05Z" finished-at="2019-06-27T19:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="658" started-at="2019-06-27T19:34:05Z" finished-at="2019-06-27T19:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS11_IncomeBonusNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS11_IncomeBonusNoNaicVariableAssumed" duration-ms="44292" started-at="2019-06-27T19:34:06Z" finished-at="2019-06-27T19:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS11_IncomeBonusNoNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:34:50Z" finished-at="2019-06-27T19:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="713" started-at="2019-06-27T19:34:50Z" finished-at="2019-06-27T19:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS12_IncomeBonusNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS12_IncomeBonusNoNaicLABackcasted" duration-ms="44055" started-at="2019-06-27T19:34:51Z" finished-at="2019-06-27T19:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS12_IncomeBonusNoNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:35:35Z" finished-at="2019-06-27T19:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="540" started-at="2019-06-27T19:35:35Z" finished-at="2019-06-27T19:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS13_EDBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS13_EDBNoNaicStrongest" duration-ms="44052" started-at="2019-06-27T19:35:35Z" finished-at="2019-06-27T19:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS13_EDBNoNaicStrongest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:36:19Z" finished-at="2019-06-27T19:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="583" started-at="2019-06-27T19:36:19Z" finished-at="2019-06-27T19:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS14_EDBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS14_EDBNoNaicLevelAssumed" duration-ms="47519" started-at="2019-06-27T19:36:20Z" finished-at="2019-06-27T19:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS14_EDBNoNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:37:08Z" finished-at="2019-06-27T19:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="549" started-at="2019-06-27T19:37:08Z" finished-at="2019-06-27T19:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS15_EDBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS15_EDBNoNaicVariableAssumed" duration-ms="47481" started-at="2019-06-27T19:37:08Z" finished-at="2019-06-27T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS15_EDBNoNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:37:56Z" finished-at="2019-06-27T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="904" started-at="2019-06-27T19:37:56Z" finished-at="2019-06-27T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS16_EDBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS16_EDBNoNaicLABackcasted" duration-ms="47722" started-at="2019-06-27T19:37:56Z" finished-at="2019-06-27T19:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS16_EDBNoNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:38:44Z" finished-at="2019-06-27T19:38:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="639" started-at="2019-06-27T19:38:44Z" finished-at="2019-06-27T19:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS17_EDBwBNoNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS17_EDBwBNoNaicStrongest" duration-ms="48057" started-at="2019-06-27T19:38:45Z" finished-at="2019-06-27T19:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS17_EDBwBNoNaicStrongest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-27T19:39:33Z" finished-at="2019-06-27T19:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="501" started-at="2019-06-27T19:39:33Z" finished-at="2019-06-27T19:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS18_EDBwBNoNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS18_EDBwBNoNaicLevelAssumed" duration-ms="41312" started-at="2019-06-27T19:39:33Z" finished-at="2019-06-27T19:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS18_EDBwBNoNaicLevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1029" started-at="2019-06-27T19:40:15Z" finished-at="2019-06-27T19:40:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:40:15Z" finished-at="2019-06-27T19:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS19_EDBwBNoNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS19_EDBwBNoNaicVariableAssumed" duration-ms="40632" started-at="2019-06-27T19:40:16Z" finished-at="2019-06-27T19:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS19_EDBwBNoNaicVariableAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="712" started-at="2019-06-27T19:40:56Z" finished-at="2019-06-27T19:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:40:56Z" finished-at="2019-06-27T19:40:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS20_EDBwBNoNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS20_EDBwBNoNaicLABackcasted" duration-ms="40914" started-at="2019-06-27T19:40:57Z" finished-at="2019-06-27T19:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS20_EDBwBNoNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:41:38Z" finished-at="2019-06-27T19:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="665" started-at="2019-06-27T19:41:38Z" finished-at="2019-06-27T19:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS21_NoneNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS21_NoneNaicStrongest" duration-ms="36263" started-at="2019-06-27T19:41:39Z" finished-at="2019-06-27T19:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS21_NoneNaicStrongest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="661" started-at="2019-06-27T19:42:15Z" finished-at="2019-06-27T19:42:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:42:15Z" finished-at="2019-06-27T19:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS22_NoneNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS22_NoneNaicLevelAssumed" duration-ms="32122" started-at="2019-06-27T19:42:16Z" finished-at="2019-06-27T19:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS22_NoneNaicLevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1260" started-at="2019-06-27T19:42:48Z" finished-at="2019-06-27T19:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:42:48Z" finished-at="2019-06-27T19:42:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS23_NoneNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS23_NoneNaicVariableAssumed" duration-ms="32609" started-at="2019-06-27T19:42:49Z" finished-at="2019-06-27T19:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS23_NoneNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:43:22Z" finished-at="2019-06-27T19:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="772" started-at="2019-06-27T19:43:22Z" finished-at="2019-06-27T19:43:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS24_NoneNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS24_NoneNaicLABackcasted" duration-ms="33534" started-at="2019-06-27T19:43:22Z" finished-at="2019-06-27T19:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS24_NoneNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:43:56Z" finished-at="2019-06-27T19:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="698" started-at="2019-06-27T19:43:56Z" finished-at="2019-06-27T19:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="TS25_IncomeNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS25_IncomeNaicStrongest" duration-ms="5596" started-at="2019-06-27T19:43:57Z" finished-at="2019-06-27T19:44:02Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 223). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 223). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+at Illustrator.TestScenarios.TS25_IncomeNaicStrongest(TestScenarios.java:1626)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS25_IncomeNaicStrongest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:44:02Z" finished-at="2019-06-27T19:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="639" started-at="2019-06-27T19:44:02Z" finished-at="2019-06-27T19:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS26_IncomeNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS26_IncomeNaicLevelAssumed" duration-ms="42392" started-at="2019-06-27T19:44:03Z" finished-at="2019-06-27T19:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS26_IncomeNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:44:45Z" finished-at="2019-06-27T19:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="622" started-at="2019-06-27T19:44:45Z" finished-at="2019-06-27T19:44:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS27_IncomeNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS27_IncomeNaicVariableAssumed" duration-ms="40813" started-at="2019-06-27T19:44:46Z" finished-at="2019-06-27T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS27_IncomeNaicVariableAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="688" started-at="2019-06-27T19:45:27Z" finished-at="2019-06-27T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:45:27Z" finished-at="2019-06-27T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS28_IncomeNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS28_IncomeNaicLABackcasted" duration-ms="40847" started-at="2019-06-27T19:45:27Z" finished-at="2019-06-27T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS28_IncomeNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:46:08Z" finished-at="2019-06-27T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1211" started-at="2019-06-27T19:46:08Z" finished-at="2019-06-27T19:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS29_IncomeBonusNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS29_IncomeBonusNaicStrongest" duration-ms="39999" started-at="2019-06-27T19:46:09Z" finished-at="2019-06-27T19:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS29_IncomeBonusNaicStrongest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="740" started-at="2019-06-27T19:46:49Z" finished-at="2019-06-27T19:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:46:49Z" finished-at="2019-06-27T19:46:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS30_IncomeBonusNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS30_IncomeBonusNaicLevelAssumed" duration-ms="45380" started-at="2019-06-27T19:46:50Z" finished-at="2019-06-27T19:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS30_IncomeBonusNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:47:35Z" finished-at="2019-06-27T19:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="527" started-at="2019-06-27T19:47:35Z" finished-at="2019-06-27T19:47:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS31_IncomeBonusNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS31_IncomeBonusNaicVariableAssumed" duration-ms="44250" started-at="2019-06-27T19:47:36Z" finished-at="2019-06-27T19:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS31_IncomeBonusNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:48:20Z" finished-at="2019-06-27T19:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="887" started-at="2019-06-27T19:48:20Z" finished-at="2019-06-27T19:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS32_IncomeBonusNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS32_IncomeBonusNaicLABackcasted" duration-ms="45826" started-at="2019-06-27T19:48:21Z" finished-at="2019-06-27T19:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS32_IncomeBonusNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:49:07Z" finished-at="2019-06-27T19:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="692" started-at="2019-06-27T19:49:07Z" finished-at="2019-06-27T19:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS33_EDBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS33_EDBNaicStrongest" duration-ms="45735" started-at="2019-06-27T19:49:08Z" finished-at="2019-06-27T19:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS33_EDBNaicStrongest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="662" started-at="2019-06-27T19:49:53Z" finished-at="2019-06-27T19:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:49:53Z" finished-at="2019-06-27T19:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS34_EDBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS34_EDBNaicLevelAssumed" duration-ms="49160" started-at="2019-06-27T19:49:54Z" finished-at="2019-06-27T19:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS34_EDBNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:50:43Z" finished-at="2019-06-27T19:50:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="518" started-at="2019-06-27T19:50:43Z" finished-at="2019-06-27T19:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS35_EDBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS35_EDBNaicVariableAssumed" duration-ms="52048" started-at="2019-06-27T19:50:44Z" finished-at="2019-06-27T19:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS35_EDBNaicVariableAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:51:36Z" finished-at="2019-06-27T19:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="512" started-at="2019-06-27T19:51:36Z" finished-at="2019-06-27T19:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS36_EDBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS36_EDBNaicLABackcasted" duration-ms="50384" started-at="2019-06-27T19:51:36Z" finished-at="2019-06-27T19:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS36_EDBNaicLABackcasted -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-27T19:52:27Z" finished-at="2019-06-27T19:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="568" started-at="2019-06-27T19:52:27Z" finished-at="2019-06-27T19:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS37_EDBwBNaicStrongest()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS37_EDBwBNaicStrongest" duration-ms="50174" started-at="2019-06-27T19:52:27Z" finished-at="2019-06-27T19:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS37_EDBwBNaicStrongest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:53:17Z" finished-at="2019-06-27T19:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="964" started-at="2019-06-27T19:53:17Z" finished-at="2019-06-27T19:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS38_EDBwBNaicLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS38_EDBwBNaicLevelAssumed" duration-ms="42733" started-at="2019-06-27T19:53:18Z" finished-at="2019-06-27T19:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS38_EDBwBNaicLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:54:01Z" finished-at="2019-06-27T19:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="525" started-at="2019-06-27T19:54:01Z" finished-at="2019-06-27T19:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS39_EDBwBNaicVariableAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS39_EDBwBNaicVariableAssumed" duration-ms="41374" started-at="2019-06-27T19:54:02Z" finished-at="2019-06-27T19:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS39_EDBwBNaicVariableAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="670" started-at="2019-06-27T19:54:43Z" finished-at="2019-06-27T19:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:54:43Z" finished-at="2019-06-27T19:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS40_EDBwBNaicLABackcasted()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS40_EDBwBNaicLABackcasted" duration-ms="41943" started-at="2019-06-27T19:54:44Z" finished-at="2019-06-27T19:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS40_EDBwBNaicLABackcasted -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1486" started-at="2019-06-27T19:55:26Z" finished-at="2019-06-27T19:55:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:55:26Z" finished-at="2019-06-27T19:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS46_NoneMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS46_NoneMozaicIILevelAssumed" duration-ms="39584" started-at="2019-06-27T19:55:27Z" finished-at="2019-06-27T19:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS46_NoneMozaicIILevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="584" started-at="2019-06-27T19:56:07Z" finished-at="2019-06-27T19:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:56:07Z" finished-at="2019-06-27T19:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="TS47_IncomeMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS47_IncomeMozaicIILevelAssumed" duration-ms="5861" started-at="2019-06-27T19:56:07Z" finished-at="2019-06-27T19:56:13Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 220). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <input type="button" value="Next" ng-disabled="!purchaseOver1M" ng-class="{disabled : !purchaseOver1M}" ng-click="ok(purchaseOver1M)" class="btn btn-primary disabled" disabled="disabled"> is not clickable at point (1024, 220). Other element would receive the click: <div class="modal-footer ng-scope">...</div>
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'LOPEZVMOBILE', ip: '192.168.180.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+at Illustrator.TestScenarios.TS47_IncomeMozaicIILevelAssumed(TestScenarios.java:3083)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS47_IncomeMozaicIILevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="510" started-at="2019-06-27T19:56:13Z" finished-at="2019-06-27T19:56:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:56:13Z" finished-at="2019-06-27T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS48_IncomeBonusMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS48_IncomeBonusMozaicIILevelAssumed" duration-ms="46763" started-at="2019-06-27T19:56:14Z" finished-at="2019-06-27T19:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS48_IncomeBonusMozaicIILevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:57:00Z" finished-at="2019-06-27T19:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="703" started-at="2019-06-27T19:57:00Z" finished-at="2019-06-27T19:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS49_EDBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS49_EDBMozaicIILevelAssumed" duration-ms="50087" started-at="2019-06-27T19:57:01Z" finished-at="2019-06-27T19:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS49_EDBMozaicIILevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:57:51Z" finished-at="2019-06-27T19:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1013" started-at="2019-06-27T19:57:51Z" finished-at="2019-06-27T19:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS50_EDBwBMozaicIILevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS50_EDBwBMozaicIILevelAssumed" duration-ms="41403" started-at="2019-06-27T19:57:52Z" finished-at="2019-06-27T19:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS50_EDBwBMozaicIILevelAssumed -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="836" started-at="2019-06-27T19:58:34Z" finished-at="2019-06-27T19:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:58:34Z" finished-at="2019-06-27T19:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TS51_NoneZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS51_NoneZebraLevelAssumed" duration-ms="39281" started-at="2019-06-27T19:58:34Z" finished-at="2019-06-27T19:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS51_NoneZebraLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:59:14Z" finished-at="2019-06-27T19:59:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1638" started-at="2019-06-27T19:59:14Z" finished-at="2019-06-27T19:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS52_IncomeZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS52_IncomeZebraLevelAssumed" duration-ms="40316" started-at="2019-06-27T19:59:15Z" finished-at="2019-06-27T19:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS52_IncomeZebraLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T19:59:56Z" finished-at="2019-06-27T19:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="2066" started-at="2019-06-27T19:59:56Z" finished-at="2019-06-27T19:59:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS53_IncomeBonusZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS53_IncomeBonusZebraLevelAssumed" duration-ms="48991" started-at="2019-06-27T19:59:58Z" finished-at="2019-06-27T20:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS53_IncomeBonusZebraLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T20:00:47Z" finished-at="2019-06-27T20:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1353" started-at="2019-06-27T20:00:47Z" finished-at="2019-06-27T20:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS54_EDBZebraLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS54_EDBZebraLevelAssumed" duration-ms="50075" started-at="2019-06-27T20:00:48Z" finished-at="2019-06-27T20:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS54_EDBZebraLevelAssumed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T20:01:38Z" finished-at="2019-06-27T20:01:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="beforeMethod" is-config="true" duration-ms="1322" started-at="2019-06-27T20:01:38Z" finished-at="2019-06-27T20:01:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TS55_EDBwBMozaLevelAssumed()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="TS55_EDBwBMozaLevelAssumed" duration-ms="42451" started-at="2019-06-27T20:01:40Z" finished-at="2019-06-27T20:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TS55_EDBwBMozaLevelAssumed -->
+        <test-method status="PASS" signature="end()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="end" is-config="true" duration-ms="0" started-at="2019-06-27T20:02:22Z" finished-at="2019-06-27T20:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Illustrator.TestScenarios@4cc0edeb]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-27T20:02:22Z" finished-at="2019-06-27T20:02:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Illustrator.TestScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

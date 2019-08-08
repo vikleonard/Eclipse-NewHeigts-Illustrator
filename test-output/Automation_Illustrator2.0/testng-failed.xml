@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [Automation_Illustrator2.0]" junit="false" annotations="JDK">
+  <test name="Illustrator.TestScenarios(failed)" junit="false" annotations="JDK">
+    <classes>
+      <class name="Illustrator.TestScenarios">
+        <methods>
+          <include name="TS13_EDBwBNoNaicStrongest"/>
+          <include name="afterMethod"/>
+          <include name="initialSetUp"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

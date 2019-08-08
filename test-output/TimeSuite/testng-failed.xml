@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" skipfailedinvocationCounts="false" verbose="1" name="Failed suite [TimeSuite]" junit="false" annotations="JDK">
+  <test name="GroupTest(failed)" junit="false" annotations="JDK">
+    <groups>
+      <run>
+        <include name="IncomeVariableAssumed"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Illustrator.TestScenarios">
+        <methods>
+          <include name="initialSetUp"/>
+          <include name="TS04_IncomeNoNaicStrongest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

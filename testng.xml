@@ -1,0 +1,12 @@
+
+  <test name="GroupTest">
+  
+  <classes>
+   <class name="Illustrator.TestScenarios">
+		<methods>
+ 	      <include name="TS40_EDBwBNaicLABackcasted" />
+ 		</methods>
+    
+   </class>
+  </classes>     
+  </test>

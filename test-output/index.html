@@ -1,0 +1,2470 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\vlopez\AppData\Local\Temp\testng-eclipse--349259046\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>14 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">50 methods, 3 failed,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS09_IncomeBonusNoNaicStrongest">TS09_IncomeBonusNoNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS25_IncomeNaicStrongest">TS25_IncomeNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS47_IncomeMozaicIILevelAssumed">TS47_IncomeMozaicIILevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS01_NoneNoNaicStrongest">TS01_NoneNoNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS02_NoneNoNaicLevelAssumed">TS02_NoneNoNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS03_NoneNoNaicVariableAssumed">TS03_NoneNoNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS04_NoneNoNaicLABackcasted">TS04_NoneNoNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS05_IncomeNoNaicStrongest">TS05_IncomeNoNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS06_IncomeNoNaicLevelAssumed">TS06_IncomeNoNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS07_IncomeNoNaicVariableAssumed">TS07_IncomeNoNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS08_IncomeNoNaicLABackcasted">TS08_IncomeNoNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS10_IncomeBonusNoNaicLevelAssumed">TS10_IncomeBonusNoNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS11_IncomeBonusNoNaicVariableAssumed">TS11_IncomeBonusNoNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS12_IncomeBonusNoNaicLABackcasted">TS12_IncomeBonusNoNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS13_EDBNoNaicStrongest">TS13_EDBNoNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS14_EDBNoNaicLevelAssumed">TS14_EDBNoNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS15_EDBNoNaicVariableAssumed">TS15_EDBNoNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS16_EDBNoNaicLABackcasted">TS16_EDBNoNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS17_EDBwBNoNaicStrongest">TS17_EDBwBNoNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS18_EDBwBNoNaicLevelAssumed">TS18_EDBwBNoNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS19_EDBwBNoNaicVariableAssumed">TS19_EDBwBNoNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS20_EDBwBNoNaicLABackcasted">TS20_EDBwBNoNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS21_NoneNaicStrongest">TS21_NoneNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS22_NoneNaicLevelAssumed">TS22_NoneNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS23_NoneNaicVariableAssumed">TS23_NoneNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS24_NoneNaicLABackcasted">TS24_NoneNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS26_IncomeNaicLevelAssumed">TS26_IncomeNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS27_IncomeNaicVariableAssumed">TS27_IncomeNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS28_IncomeNaicLABackcasted">TS28_IncomeNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS29_IncomeBonusNaicStrongest">TS29_IncomeBonusNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS30_IncomeBonusNaicLevelAssumed">TS30_IncomeBonusNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS31_IncomeBonusNaicVariableAssumed">TS31_IncomeBonusNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS32_IncomeBonusNaicLABackcasted">TS32_IncomeBonusNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS33_EDBNaicStrongest">TS33_EDBNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS34_EDBNaicLevelAssumed">TS34_EDBNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS35_EDBNaicVariableAssumed">TS35_EDBNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS36_EDBNaicLABackcasted">TS36_EDBNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS37_EDBwBNaicStrongest">TS37_EDBwBNaicStrongest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS38_EDBwBNaicLevelAssumed">TS38_EDBwBNaicLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS39_EDBwBNaicVariableAssumed">TS39_EDBwBNaicVariableAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS40_EDBwBNaicLABackcasted">TS40_EDBwBNaicLABackcasted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS46_NoneMozaicIILevelAssumed">TS46_NoneMozaicIILevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS48_IncomeBonusMozaicIILevelAssumed">TS48_IncomeBonusMozaicIILevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS49_EDBMozaicIILevelAssumed">TS49_EDBMozaicIILevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS50_EDBwBMozaicIILevelAssumed">TS50_EDBwBMozaicIILevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS51_NoneZebraLevelAssumed">TS51_NoneZebraLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS52_IncomeZebraLevelAssumed">TS52_IncomeZebraLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS53_IncomeBonusZebraLevelAssumed">TS53_IncomeBonusZebraLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS54_EDBZebraLevelAssumed">TS54_EDBZebraLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Illustrator.TestScenarios" hash-for-method="TS55_EDBwBMozaLevelAssumed">TS55_EDBwBMozaLevelAssumed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Illustrator.TestScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS09_IncomeBonusNoNaicStrongest">
+                  </a> <!-- TS09_IncomeBonusNoNaicStrongest -->
+                  <span class="method-name">TS09_IncomeBonusNoNaicStrongest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;button&quot; value=&quot;Next&quot; ng-disabled=&quot;!purchaseOver1M&quot; ng-class=&quot;{disabled : !purchaseOver1M}&quot; ng-click=&quot;ok(purchaseOver1M)&quot; class=&quot;btn btn-primary disabled&quot; disabled=&quot;disabled&quot;&gt; is not clickable at point (1024, 223). Other element would receive the click: &lt;div class=&quot;modal-footer ng-scope&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;LOPEZVMOBILE&apos;, ip: &apos;192.168.180.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+	at Illustrator.TestScenarios.TS09_IncomeBonusNoNaicStrongest(TestScenarios.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS25_IncomeNaicStrongest">
+                  </a> <!-- TS25_IncomeNaicStrongest -->
+                  <span class="method-name">TS25_IncomeNaicStrongest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;button&quot; value=&quot;Next&quot; ng-disabled=&quot;!purchaseOver1M&quot; ng-class=&quot;{disabled : !purchaseOver1M}&quot; ng-click=&quot;ok(purchaseOver1M)&quot; class=&quot;btn btn-primary disabled&quot; disabled=&quot;disabled&quot;&gt; is not clickable at point (1024, 223). Other element would receive the click: &lt;div class=&quot;modal-footer ng-scope&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;LOPEZVMOBILE&apos;, ip: &apos;192.168.180.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+	at Illustrator.TestScenarios.TS25_IncomeNaicStrongest(TestScenarios.java:1626)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS47_IncomeMozaicIILevelAssumed">
+                  </a> <!-- TS47_IncomeMozaicIILevelAssumed -->
+                  <span class="method-name">TS47_IncomeMozaicIILevelAssumed</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;button&quot; value=&quot;Next&quot; ng-disabled=&quot;!purchaseOver1M&quot; ng-class=&quot;{disabled : !purchaseOver1M}&quot; ng-click=&quot;ok(purchaseOver1M)&quot; class=&quot;btn btn-primary disabled&quot; disabled=&quot;disabled&quot;&gt; is not clickable at point (1024, 220). Other element would receive the click: &lt;div class=&quot;modal-footer ng-scope&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;LOPEZVMOBILE&apos;, ip: &apos;192.168.180.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\vlopez\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 0159a299c458e980f0f99067e4869fb3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at Illustrator.Illustration.clickNextContinueAlertOver1m(Illustration.java:135)
+	at Illustrator.TestScenarios.TS47_IncomeMozaicIILevelAssumed(TestScenarios.java:3083)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Illustrator.TestScenarios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS01_NoneNoNaicStrongest">
+                  </a> <!-- TS01_NoneNoNaicStrongest -->
+                  <span class="method-name">TS01_NoneNoNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS02_NoneNoNaicLevelAssumed">
+                  </a> <!-- TS02_NoneNoNaicLevelAssumed -->
+                  <span class="method-name">TS02_NoneNoNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS03_NoneNoNaicVariableAssumed">
+                  </a> <!-- TS03_NoneNoNaicVariableAssumed -->
+                  <span class="method-name">TS03_NoneNoNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS04_NoneNoNaicLABackcasted">
+                  </a> <!-- TS04_NoneNoNaicLABackcasted -->
+                  <span class="method-name">TS04_NoneNoNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS05_IncomeNoNaicStrongest">
+                  </a> <!-- TS05_IncomeNoNaicStrongest -->
+                  <span class="method-name">TS05_IncomeNoNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS06_IncomeNoNaicLevelAssumed">
+                  </a> <!-- TS06_IncomeNoNaicLevelAssumed -->
+                  <span class="method-name">TS06_IncomeNoNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS07_IncomeNoNaicVariableAssumed">
+                  </a> <!-- TS07_IncomeNoNaicVariableAssumed -->
+                  <span class="method-name">TS07_IncomeNoNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS08_IncomeNoNaicLABackcasted">
+                  </a> <!-- TS08_IncomeNoNaicLABackcasted -->
+                  <span class="method-name">TS08_IncomeNoNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS10_IncomeBonusNoNaicLevelAssumed">
+                  </a> <!-- TS10_IncomeBonusNoNaicLevelAssumed -->
+                  <span class="method-name">TS10_IncomeBonusNoNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS11_IncomeBonusNoNaicVariableAssumed">
+                  </a> <!-- TS11_IncomeBonusNoNaicVariableAssumed -->
+                  <span class="method-name">TS11_IncomeBonusNoNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS12_IncomeBonusNoNaicLABackcasted">
+                  </a> <!-- TS12_IncomeBonusNoNaicLABackcasted -->
+                  <span class="method-name">TS12_IncomeBonusNoNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS13_EDBNoNaicStrongest">
+                  </a> <!-- TS13_EDBNoNaicStrongest -->
+                  <span class="method-name">TS13_EDBNoNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS14_EDBNoNaicLevelAssumed">
+                  </a> <!-- TS14_EDBNoNaicLevelAssumed -->
+                  <span class="method-name">TS14_EDBNoNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS15_EDBNoNaicVariableAssumed">
+                  </a> <!-- TS15_EDBNoNaicVariableAssumed -->
+                  <span class="method-name">TS15_EDBNoNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS16_EDBNoNaicLABackcasted">
+                  </a> <!-- TS16_EDBNoNaicLABackcasted -->
+                  <span class="method-name">TS16_EDBNoNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS17_EDBwBNoNaicStrongest">
+                  </a> <!-- TS17_EDBwBNoNaicStrongest -->
+                  <span class="method-name">TS17_EDBwBNoNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS18_EDBwBNoNaicLevelAssumed">
+                  </a> <!-- TS18_EDBwBNoNaicLevelAssumed -->
+                  <span class="method-name">TS18_EDBwBNoNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS19_EDBwBNoNaicVariableAssumed">
+                  </a> <!-- TS19_EDBwBNoNaicVariableAssumed -->
+                  <span class="method-name">TS19_EDBwBNoNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS20_EDBwBNoNaicLABackcasted">
+                  </a> <!-- TS20_EDBwBNoNaicLABackcasted -->
+                  <span class="method-name">TS20_EDBwBNoNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS21_NoneNaicStrongest">
+                  </a> <!-- TS21_NoneNaicStrongest -->
+                  <span class="method-name">TS21_NoneNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS22_NoneNaicLevelAssumed">
+                  </a> <!-- TS22_NoneNaicLevelAssumed -->
+                  <span class="method-name">TS22_NoneNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS23_NoneNaicVariableAssumed">
+                  </a> <!-- TS23_NoneNaicVariableAssumed -->
+                  <span class="method-name">TS23_NoneNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS24_NoneNaicLABackcasted">
+                  </a> <!-- TS24_NoneNaicLABackcasted -->
+                  <span class="method-name">TS24_NoneNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS26_IncomeNaicLevelAssumed">
+                  </a> <!-- TS26_IncomeNaicLevelAssumed -->
+                  <span class="method-name">TS26_IncomeNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS27_IncomeNaicVariableAssumed">
+                  </a> <!-- TS27_IncomeNaicVariableAssumed -->
+                  <span class="method-name">TS27_IncomeNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS28_IncomeNaicLABackcasted">
+                  </a> <!-- TS28_IncomeNaicLABackcasted -->
+                  <span class="method-name">TS28_IncomeNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS29_IncomeBonusNaicStrongest">
+                  </a> <!-- TS29_IncomeBonusNaicStrongest -->
+                  <span class="method-name">TS29_IncomeBonusNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS30_IncomeBonusNaicLevelAssumed">
+                  </a> <!-- TS30_IncomeBonusNaicLevelAssumed -->
+                  <span class="method-name">TS30_IncomeBonusNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS31_IncomeBonusNaicVariableAssumed">
+                  </a> <!-- TS31_IncomeBonusNaicVariableAssumed -->
+                  <span class="method-name">TS31_IncomeBonusNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS32_IncomeBonusNaicLABackcasted">
+                  </a> <!-- TS32_IncomeBonusNaicLABackcasted -->
+                  <span class="method-name">TS32_IncomeBonusNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS33_EDBNaicStrongest">
+                  </a> <!-- TS33_EDBNaicStrongest -->
+                  <span class="method-name">TS33_EDBNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS34_EDBNaicLevelAssumed">
+                  </a> <!-- TS34_EDBNaicLevelAssumed -->
+                  <span class="method-name">TS34_EDBNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS35_EDBNaicVariableAssumed">
+                  </a> <!-- TS35_EDBNaicVariableAssumed -->
+                  <span class="method-name">TS35_EDBNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS36_EDBNaicLABackcasted">
+                  </a> <!-- TS36_EDBNaicLABackcasted -->
+                  <span class="method-name">TS36_EDBNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS37_EDBwBNaicStrongest">
+                  </a> <!-- TS37_EDBwBNaicStrongest -->
+                  <span class="method-name">TS37_EDBwBNaicStrongest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS38_EDBwBNaicLevelAssumed">
+                  </a> <!-- TS38_EDBwBNaicLevelAssumed -->
+                  <span class="method-name">TS38_EDBwBNaicLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS39_EDBwBNaicVariableAssumed">
+                  </a> <!-- TS39_EDBwBNaicVariableAssumed -->
+                  <span class="method-name">TS39_EDBwBNaicVariableAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS40_EDBwBNaicLABackcasted">
+                  </a> <!-- TS40_EDBwBNaicLABackcasted -->
+                  <span class="method-name">TS40_EDBwBNaicLABackcasted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS46_NoneMozaicIILevelAssumed">
+                  </a> <!-- TS46_NoneMozaicIILevelAssumed -->
+                  <span class="method-name">TS46_NoneMozaicIILevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS48_IncomeBonusMozaicIILevelAssumed">
+                  </a> <!-- TS48_IncomeBonusMozaicIILevelAssumed -->
+                  <span class="method-name">TS48_IncomeBonusMozaicIILevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS49_EDBMozaicIILevelAssumed">
+                  </a> <!-- TS49_EDBMozaicIILevelAssumed -->
+                  <span class="method-name">TS49_EDBMozaicIILevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS50_EDBwBMozaicIILevelAssumed">
+                  </a> <!-- TS50_EDBwBMozaicIILevelAssumed -->
+                  <span class="method-name">TS50_EDBwBMozaicIILevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS51_NoneZebraLevelAssumed">
+                  </a> <!-- TS51_NoneZebraLevelAssumed -->
+                  <span class="method-name">TS51_NoneZebraLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS52_IncomeZebraLevelAssumed">
+                  </a> <!-- TS52_IncomeZebraLevelAssumed -->
+                  <span class="method-name">TS52_IncomeZebraLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS53_IncomeBonusZebraLevelAssumed">
+                  </a> <!-- TS53_IncomeBonusZebraLevelAssumed -->
+                  <span class="method-name">TS53_IncomeBonusZebraLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS54_EDBZebraLevelAssumed">
+                  </a> <!-- TS54_EDBZebraLevelAssumed -->
+                  <span class="method-name">TS54_EDBZebraLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TS55_EDBwBMozaLevelAssumed">
+                  </a> <!-- TS55_EDBwBMozaLevelAssumed -->
+                  <span class="method-name">TS55_EDBwBMozaLevelAssumed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vlopez\AppData\Local\Temp\testng-eclipse--349259046\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Illustrator.TestScenarios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">EDB</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS13_EDBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS14_EDBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS15_EDBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS16_EDBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS33_EDBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS34_EDBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS35_EDBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS36_EDBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS49_EDBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS54_EDBZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">EDBBonus</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS17_EDBwBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS18_EDBwBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS19_EDBwBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS20_EDBwBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS37_EDBwBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS38_EDBwBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS39_EDBwBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS40_EDBwBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS50_EDBwBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS55_EDBwBMozaLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Income</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS05_IncomeNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS06_IncomeNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS07_IncomeNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS08_IncomeNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS25_IncomeNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS26_IncomeNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS27_IncomeNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS28_IncomeNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS47_IncomeMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS52_IncomeZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">IncomeBonus</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS09_IncomeBonusNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS10_IncomeBonusNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS11_IncomeBonusNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS12_IncomeBonusNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS29_IncomeBonusNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS30_IncomeBonusNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS31_IncomeBonusNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS32_IncomeBonusNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS48_IncomeBonusMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS53_IncomeBonusZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LABackcasted</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS04_NoneNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS08_IncomeNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS12_IncomeBonusNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS16_EDBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS20_EDBwBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS24_NoneNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS28_IncomeNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS32_IncomeBonusNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS36_EDBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS40_EDBwBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">LevelAssumed</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS02_NoneNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS06_IncomeNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS10_IncomeBonusNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS14_EDBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS18_EDBwBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS22_NoneNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS26_IncomeNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS30_IncomeBonusNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS34_EDBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS38_EDBwBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS46_NoneMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS47_IncomeMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS48_IncomeBonusMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS49_EDBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS50_EDBwBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS51_NoneZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS52_IncomeZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS53_IncomeBonusZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS54_EDBZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS55_EDBwBMozaLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Moza</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS55_EDBwBMozaLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">MozaicII</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS46_NoneMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS47_IncomeMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS48_IncomeBonusMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS49_EDBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS50_EDBwBMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Naic</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS21_NoneNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS22_NoneNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS23_NoneNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS24_NoneNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS25_IncomeNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS26_IncomeNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS27_IncomeNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS28_IncomeNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS29_IncomeBonusNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS30_IncomeBonusNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS31_IncomeBonusNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS32_IncomeBonusNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS33_EDBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS34_EDBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS35_EDBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS36_EDBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS37_EDBwBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS38_EDBwBNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS39_EDBwBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS40_EDBwBNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">NoNaic</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS01_NoneNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS02_NoneNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS03_NoneNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS04_NoneNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS05_IncomeNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS06_IncomeNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS07_IncomeNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS08_IncomeNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS09_IncomeBonusNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS10_IncomeBonusNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS11_IncomeBonusNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS12_IncomeBonusNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS13_EDBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS14_EDBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS15_EDBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS16_EDBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS17_EDBwBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS18_EDBwBNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS19_EDBwBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS20_EDBwBNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">None</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS01_NoneNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS02_NoneNoNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS03_NoneNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS04_NoneNoNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS21_NoneNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS22_NoneNaicLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS23_NoneNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS24_NoneNaicLABackcasted</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS46_NoneMozaicIILevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS51_NoneZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Strongest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS01_NoneNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS05_IncomeNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS09_IncomeBonusNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS13_EDBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS17_EDBwBNoNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS21_NoneNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS25_IncomeNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS29_IncomeBonusNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS33_EDBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS37_EDBwBNaicStrongest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">VariableAssumed</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS03_NoneNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS07_IncomeNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS11_IncomeBonusNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS15_EDBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS19_EDBwBNoNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS23_NoneNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS27_IncomeNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS31_IncomeBonusNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS35_EDBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS39_EDBwBNaicVariableAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Zebra</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS51_NoneZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS52_IncomeZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS53_IncomeBonusZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TS54_EDBZebraLevelAssumed</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(50);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TS35_EDBNaicVariableAssumed')
+data.setCell(0, 2, 'Illustrator.TestScenarios')
+data.setCell(0, 3, 52048);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TS36_EDBNaicLABackcasted')
+data.setCell(1, 2, 'Illustrator.TestScenarios')
+data.setCell(1, 3, 50384);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TS37_EDBwBNaicStrongest')
+data.setCell(2, 2, 'Illustrator.TestScenarios')
+data.setCell(2, 3, 50174);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TS49_EDBMozaicIILevelAssumed')
+data.setCell(3, 2, 'Illustrator.TestScenarios')
+data.setCell(3, 3, 50087);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TS54_EDBZebraLevelAssumed')
+data.setCell(4, 2, 'Illustrator.TestScenarios')
+data.setCell(4, 3, 50075);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TS34_EDBNaicLevelAssumed')
+data.setCell(5, 2, 'Illustrator.TestScenarios')
+data.setCell(5, 3, 49160);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TS53_IncomeBonusZebraLevelAssumed')
+data.setCell(6, 2, 'Illustrator.TestScenarios')
+data.setCell(6, 3, 48991);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TS17_EDBwBNoNaicStrongest')
+data.setCell(7, 2, 'Illustrator.TestScenarios')
+data.setCell(7, 3, 48057);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TS16_EDBNoNaicLABackcasted')
+data.setCell(8, 2, 'Illustrator.TestScenarios')
+data.setCell(8, 3, 47722);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TS14_EDBNoNaicLevelAssumed')
+data.setCell(9, 2, 'Illustrator.TestScenarios')
+data.setCell(9, 3, 47519);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TS15_EDBNoNaicVariableAssumed')
+data.setCell(10, 2, 'Illustrator.TestScenarios')
+data.setCell(10, 3, 47481);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TS48_IncomeBonusMozaicIILevelAssumed')
+data.setCell(11, 2, 'Illustrator.TestScenarios')
+data.setCell(11, 3, 46763);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TS32_IncomeBonusNaicLABackcasted')
+data.setCell(12, 2, 'Illustrator.TestScenarios')
+data.setCell(12, 3, 45826);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TS33_EDBNaicStrongest')
+data.setCell(13, 2, 'Illustrator.TestScenarios')
+data.setCell(13, 3, 45735);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TS30_IncomeBonusNaicLevelAssumed')
+data.setCell(14, 2, 'Illustrator.TestScenarios')
+data.setCell(14, 3, 45380);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TS11_IncomeBonusNoNaicVariableAssumed')
+data.setCell(15, 2, 'Illustrator.TestScenarios')
+data.setCell(15, 3, 44292);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TS31_IncomeBonusNaicVariableAssumed')
+data.setCell(16, 2, 'Illustrator.TestScenarios')
+data.setCell(16, 3, 44250);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TS12_IncomeBonusNoNaicLABackcasted')
+data.setCell(17, 2, 'Illustrator.TestScenarios')
+data.setCell(17, 3, 44055);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TS13_EDBNoNaicStrongest')
+data.setCell(18, 2, 'Illustrator.TestScenarios')
+data.setCell(18, 3, 44052);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TS01_NoneNoNaicStrongest')
+data.setCell(19, 2, 'Illustrator.TestScenarios')
+data.setCell(19, 3, 43767);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TS10_IncomeBonusNoNaicLevelAssumed')
+data.setCell(20, 2, 'Illustrator.TestScenarios')
+data.setCell(20, 3, 42936);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TS38_EDBwBNaicLevelAssumed')
+data.setCell(21, 2, 'Illustrator.TestScenarios')
+data.setCell(21, 3, 42733);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TS06_IncomeNoNaicLevelAssumed')
+data.setCell(22, 2, 'Illustrator.TestScenarios')
+data.setCell(22, 3, 42702);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TS55_EDBwBMozaLevelAssumed')
+data.setCell(23, 2, 'Illustrator.TestScenarios')
+data.setCell(23, 3, 42451);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TS26_IncomeNaicLevelAssumed')
+data.setCell(24, 2, 'Illustrator.TestScenarios')
+data.setCell(24, 3, 42392);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TS40_EDBwBNaicLABackcasted')
+data.setCell(25, 2, 'Illustrator.TestScenarios')
+data.setCell(25, 3, 41943);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TS50_EDBwBMozaicIILevelAssumed')
+data.setCell(26, 2, 'Illustrator.TestScenarios')
+data.setCell(26, 3, 41403);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TS39_EDBwBNaicVariableAssumed')
+data.setCell(27, 2, 'Illustrator.TestScenarios')
+data.setCell(27, 3, 41374);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TS18_EDBwBNoNaicLevelAssumed')
+data.setCell(28, 2, 'Illustrator.TestScenarios')
+data.setCell(28, 3, 41312);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TS05_IncomeNoNaicStrongest')
+data.setCell(29, 2, 'Illustrator.TestScenarios')
+data.setCell(29, 3, 41081);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TS20_EDBwBNoNaicLABackcasted')
+data.setCell(30, 2, 'Illustrator.TestScenarios')
+data.setCell(30, 3, 40914);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TS07_IncomeNoNaicVariableAssumed')
+data.setCell(31, 2, 'Illustrator.TestScenarios')
+data.setCell(31, 3, 40863);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TS28_IncomeNaicLABackcasted')
+data.setCell(32, 2, 'Illustrator.TestScenarios')
+data.setCell(32, 3, 40847);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TS27_IncomeNaicVariableAssumed')
+data.setCell(33, 2, 'Illustrator.TestScenarios')
+data.setCell(33, 3, 40813);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TS19_EDBwBNoNaicVariableAssumed')
+data.setCell(34, 2, 'Illustrator.TestScenarios')
+data.setCell(34, 3, 40632);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TS52_IncomeZebraLevelAssumed')
+data.setCell(35, 2, 'Illustrator.TestScenarios')
+data.setCell(35, 3, 40316);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TS29_IncomeBonusNaicStrongest')
+data.setCell(36, 2, 'Illustrator.TestScenarios')
+data.setCell(36, 3, 39999);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'TS08_IncomeNoNaicLABackcasted')
+data.setCell(37, 2, 'Illustrator.TestScenarios')
+data.setCell(37, 3, 39993);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'TS46_NoneMozaicIILevelAssumed')
+data.setCell(38, 2, 'Illustrator.TestScenarios')
+data.setCell(38, 3, 39584);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'TS51_NoneZebraLevelAssumed')
+data.setCell(39, 2, 'Illustrator.TestScenarios')
+data.setCell(39, 3, 39281);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'TS21_NoneNaicStrongest')
+data.setCell(40, 2, 'Illustrator.TestScenarios')
+data.setCell(40, 3, 36263);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'TS03_NoneNoNaicVariableAssumed')
+data.setCell(41, 2, 'Illustrator.TestScenarios')
+data.setCell(41, 3, 35549);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'TS02_NoneNoNaicLevelAssumed')
+data.setCell(42, 2, 'Illustrator.TestScenarios')
+data.setCell(42, 3, 34553);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'TS24_NoneNaicLABackcasted')
+data.setCell(43, 2, 'Illustrator.TestScenarios')
+data.setCell(43, 3, 33534);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'TS23_NoneNaicVariableAssumed')
+data.setCell(44, 2, 'Illustrator.TestScenarios')
+data.setCell(44, 3, 32609);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'TS22_NoneNaicLevelAssumed')
+data.setCell(45, 2, 'Illustrator.TestScenarios')
+data.setCell(45, 3, 32122);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'TS04_NoneNoNaicLABackcasted')
+data.setCell(46, 2, 'Illustrator.TestScenarios')
+data.setCell(46, 3, 31446);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'TS47_IncomeMozaicIILevelAssumed')
+data.setCell(47, 2, 'Illustrator.TestScenarios')
+data.setCell(47, 3, 5861);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'TS25_IncomeNaicStrongest')
+data.setCell(48, 2, 'Illustrator.TestScenarios')
+data.setCell(48, 3, 5596);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'TS09_IncomeBonusNoNaicStrongest')
+data.setCell(49, 2, 'Illustrator.TestScenarios')
+data.setCell(49, 3, 4140);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 33 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Illustrator.TestScenarios</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialSetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS01_NoneNoNaicStrongest</span>
+                <span class="method-start">4631 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">48400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">48401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS02_NoneNoNaicLevelAssumed</span>
+                <span class="method-start">49087 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">83642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">83643 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS03_NoneNoNaicVariableAssumed</span>
+                <span class="method-start">84360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">119910 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">119911 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS04_NoneNoNaicLABackcasted</span>
+                <span class="method-start">120692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">152139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">152140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS05_IncomeNoNaicStrongest</span>
+                <span class="method-start">152993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">194075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">194075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS06_IncomeNoNaicLevelAssumed</span>
+                <span class="method-start">194613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">237316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">237316 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS07_IncomeNoNaicVariableAssumed</span>
+                <span class="method-start">238178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">279043 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">279044 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS08_IncomeNoNaicLABackcasted</span>
+                <span class="method-start">279828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">319822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">319823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS09_IncomeBonusNoNaicStrongest</span>
+                <span class="method-start">320693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">324835 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">324835 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS10_IncomeBonusNoNaicLevelAssumed</span>
+                <span class="method-start">325632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">368569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">368570 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS11_IncomeBonusNoNaicVariableAssumed</span>
+                <span class="method-start">369228 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">413521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">413521 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS12_IncomeBonusNoNaicLABackcasted</span>
+                <span class="method-start">414234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">458290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">458291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS13_EDBNoNaicStrongest</span>
+                <span class="method-start">458831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">502884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">502884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS14_EDBNoNaicLevelAssumed</span>
+                <span class="method-start">503467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">550987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">550987 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS15_EDBNoNaicVariableAssumed</span>
+                <span class="method-start">551536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">599018 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">599018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS16_EDBNoNaicLABackcasted</span>
+                <span class="method-start">599922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">647645 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">647646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS17_EDBwBNoNaicStrongest</span>
+                <span class="method-start">648285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">696342 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">696343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS18_EDBwBNoNaicLevelAssumed</span>
+                <span class="method-start">696844 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">738157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">738157 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS19_EDBwBNoNaicVariableAssumed</span>
+                <span class="method-start">739186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">779819 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">779819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS20_EDBwBNoNaicLABackcasted</span>
+                <span class="method-start">780531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">821446 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">821446 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS21_NoneNaicStrongest</span>
+                <span class="method-start">822111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">858375 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">858375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS22_NoneNaicLevelAssumed</span>
+                <span class="method-start">859036 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">891159 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">891159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS23_NoneNaicVariableAssumed</span>
+                <span class="method-start">892419 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">925029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">925029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS24_NoneNaicLABackcasted</span>
+                <span class="method-start">925801 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">959335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">959336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS25_IncomeNaicStrongest</span>
+                <span class="method-start">960034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">965631 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">965631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS26_IncomeNaicLevelAssumed</span>
+                <span class="method-start">966270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1008663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1008663 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS27_IncomeNaicVariableAssumed</span>
+                <span class="method-start">1009285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1050098 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1050098 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS28_IncomeNaicLABackcasted</span>
+                <span class="method-start">1050786 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1091634 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1091634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS29_IncomeBonusNaicStrongest</span>
+                <span class="method-start">1092845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1132844 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1132844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS30_IncomeBonusNaicLevelAssumed</span>
+                <span class="method-start">1133584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1178964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1178964 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS31_IncomeBonusNaicVariableAssumed</span>
+                <span class="method-start">1179491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1223741 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1223742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS32_IncomeBonusNaicLABackcasted</span>
+                <span class="method-start">1224629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1270456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1270457 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS33_EDBNaicStrongest</span>
+                <span class="method-start">1271150 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1316886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1316886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS34_EDBNaicLevelAssumed</span>
+                <span class="method-start">1317548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1366708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1366709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS35_EDBNaicVariableAssumed</span>
+                <span class="method-start">1367227 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1419275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1419276 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS36_EDBNaicLABackcasted</span>
+                <span class="method-start">1419788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1470172 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1470173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS37_EDBwBNaicStrongest</span>
+                <span class="method-start">1470741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1520916 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1520916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS38_EDBwBNaicLevelAssumed</span>
+                <span class="method-start">1521880 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1564614 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1564614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS39_EDBwBNaicVariableAssumed</span>
+                <span class="method-start">1565139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1606514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1606514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS40_EDBwBNaicLABackcasted</span>
+                <span class="method-start">1607184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1649129 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1649129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS46_NoneMozaicIILevelAssumed</span>
+                <span class="method-start">1650615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1690200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1690200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TS47_IncomeMozaicIILevelAssumed</span>
+                <span class="method-start">1690784 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1696646 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1696646 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS48_IncomeBonusMozaicIILevelAssumed</span>
+                <span class="method-start">1697156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1743920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1743920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS49_EDBMozaicIILevelAssumed</span>
+                <span class="method-start">1744623 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1794710 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1794710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS50_EDBwBMozaicIILevelAssumed</span>
+                <span class="method-start">1795723 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1837127 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1837127 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS51_NoneZebraLevelAssumed</span>
+                <span class="method-start">1837963 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1877245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1877245 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS52_IncomeZebraLevelAssumed</span>
+                <span class="method-start">1878883 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1919200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1919200 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS53_IncomeBonusZebraLevelAssumed</span>
+                <span class="method-start">1921266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">1970257 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">1970258 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS54_EDBZebraLevelAssumed</span>
+                <span class="method-start">1971611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">2021686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">2021687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TS55_EDBwBMozaLevelAssumed</span>
+                <span class="method-start">2023009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">2065460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">2065460 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
