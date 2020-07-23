@@ -441,7 +441,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.waitTimer();
 		income.clickOverrideFixed();
-		income.setRateIllustration("4.00%");
+		income.setRateIllustration("1.00%");
 		income.clickSave();
 		income.waitTimer();
 		income.clickPreviewReport();
@@ -1305,7 +1305,7 @@ public class TestScenarios {
 		edbWBonus.waitTimer();
 		edbWBonus.clickOverrideFixed();
 		edbWBonus.waitTimer();
-		edbWBonus.setRateIllustration("3.50%");
+		edbWBonus.setRateIllustration("2.50%");
 		edbWBonus.clickSave();
 		edbWBonus.waitTimer();
 		edbWBonus.clickPreviewReport();
@@ -1507,7 +1507,7 @@ public class TestScenarios {
 		none.clickLevelAssumed();
 		none.waitTimer();
 		none.clickOverrideFixed();
-		none.setRateIllustration("4.00%");
+		none.setRateIllustration("1.00%");
 		none.clickSave();
 		none.waitTimer();
 		none.clickPreviewReport();
@@ -1707,7 +1707,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.waitTimer();
 		income.clickOverrideFixed();
-		income.setRateIllustration("4.00%");
+		income.setRateIllustration("1.00%");
 		income.clickSave();
 		income.waitTimer();
 		income.clickPreviewReport();
@@ -2573,7 +2573,7 @@ public class TestScenarios {
 		edbWBonus.waitTimer();
 		edbWBonus.clickOverrideFixed();
 		edbWBonus.waitTimer();
-		edbWBonus.setRateIllustration("2.50%");
+		edbWBonus.setRateIllustration("1.50%");
 		edbWBonus.clickSave();
 		edbWBonus.waitTimer();
 		edbWBonus.clickPreviewReport();
@@ -2737,7 +2737,7 @@ public class TestScenarios {
 		none.clickLevelAssumed();
 		none.clickOverrideFixed();
 		none.waitTimer();
-		none.setRateIllustration("5.75%");
+		none.setRateIllustration("1.75%");
 		none.waitTimer();
 		none.clickSave();
 		none.waitTimer();
@@ -2782,7 +2782,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.clickOverrideFixed();
 		income.waitTimer();
-		income.setRateIllustration("3.50%");
+		income.setRateIllustration("1.50%");
 		income.waitTimer();
 		income.clickSave();
 		income.waitTimer();
@@ -3093,7 +3093,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.clickOverrideFixed();
 		income.waitTimer();
-		income.setRateIllustration("4.00%");
+		income.setRateIllustration("1.00%");
 		income.waitTimer();
 		income.clickSave();
 		income.waitTimer();
@@ -3167,7 +3167,7 @@ public class TestScenarios {
 		incomeWbonus.clickLevelAssumed();
 		incomeWbonus.clickOverrideFixed();
 		incomeWbonus.waitTimer();
-		incomeWbonus.setRateIllustration("4.00%");
+		incomeWbonus.setRateIllustration("1.00%");
 		incomeWbonus.waitTimer();
 		incomeWbonus.clickSave();
 		incomeWbonus.waitTimer();
