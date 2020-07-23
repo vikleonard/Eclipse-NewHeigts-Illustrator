@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+  <test name="Default test(failed)">
     <classes>
       <class name="Illustrator.TestScenarios">
         <methods>
+          <include name="TS40_EDBwBNaicLABackcasted"/>
           <include name="end"/>
           <include name="afterMethod"/>
+          <include name="TS18_EDBwBNoNaicLevelAssumed"/>
+          <include name="TS07_IncomeNoNaicVariableAssumed"/>
+          <include name="TS22_NoneNaicLevelAssumed"/>
+          <include name="TS26_IncomeNaicLevelAssumed"/>
+          <include name="TS06_IncomeNoNaicLevelAssumed"/>
           <include name="initialSetUp"/>
           <include name="beforeMethod"/>
-          <include name="TS09_IncomeBonusNoNaicStrongest"/>
-          <include name="TS25_IncomeNaicStrongest"/>
-          <include name="TS47_IncomeMozaicIILevelAssumed"/>
         </methods>
       </class> <!-- Illustrator.TestScenarios -->
     </classes>

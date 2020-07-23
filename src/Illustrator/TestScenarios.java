@@ -25,8 +25,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.pdfbox.pdfparser.PDFParser;
-import org.apache.pdfbox.util.PDFTextStripper;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 //import org.apache.pdfbox.exceptions.COSVisitorException;
@@ -160,7 +159,7 @@ public class TestScenarios {
 		String randomState = (noNaicStates[new Random().nextInt(noNaicStates.length)]);
 		none.setStateModal(randomState);
 		none.setCaseRequiredFields();
-		none.setProduct("New Heights 8");
+		none.setProduct("New Heights 9");
 		none.setTaxStatus("Non-Qualified");
 		none.click_SP500_A();
 		none.setPurchasePayment("50000");
@@ -191,10 +190,10 @@ public class TestScenarios {
 		none.waitTimer();
 		none.clickSave();
 		none.waitTimer();
-		none.clickPreviewReport();
-		none.waitTimer();
-		validatePreviewReport(none);
-		none.waitTimer();
+//		none.clickPreviewReport();
+//		none.waitTimer();
+//		validatePreviewReport(none);
+//		none.waitTimer();
 		none.clickPdfReport();
 		startLoadTime = System.currentTimeMillis();
 		none.waitTimer();
@@ -352,10 +351,10 @@ public class TestScenarios {
 		income.click_SP500_B();
 		income.clickSingle();
 		income.clickPurchaseIllustration();
-		income.setPurchasePayment("50000000");
+		income.setPurchasePayment("50000");
 		income.clickNextCase();
-		income.setContinueAlertOver1m();
-		income.clickNextContinueAlertOver1m();
+		//income.setContinueAlertOver1m();
+		//income.clickNextContinueAlertOver1m();
 		income.waitTimer();
 
 		income.setProfileRequiredTab();
@@ -405,7 +404,7 @@ public class TestScenarios {
 		Income income = new Income(driver);
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Non-Qualified");
 		income.click_EAFE_B();
 		income.clickIncomeIllustration();
@@ -442,7 +441,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.waitTimer();
 		income.clickOverrideFixed();
-		income.setRateIllustration("0.00%");
+		income.setRateIllustration("4.00%");
 		income.clickSave();
 		income.waitTimer();
 		income.clickPreviewReport();
@@ -602,10 +601,10 @@ public class TestScenarios {
 		incomeWbonus.setTaxStatus("Qualified");
 		incomeWbonus.click_EAFE_B();
 		incomeWbonus.clickJoint();
-		incomeWbonus.setPurchasePayment("45000000");
+		incomeWbonus.setPurchasePayment("45000");
 		incomeWbonus.clickNextCase();
-		incomeWbonus.setContinueAlertOver1m();
-		incomeWbonus.clickNextContinueAlertOver1m();
+		//incomeWbonus.setContinueAlertOver1m();
+		//incomeWbonus.clickNextContinueAlertOver1m();
 		incomeWbonus.waitTimer();
 
 		incomeWbonus.setProfileRequiredTab();
@@ -661,7 +660,7 @@ public class TestScenarios {
 
 		incomeWbonus.setCaseRequiredFields();
 		none.waitTimer();
-		incomeWbonus.setProduct("New Heights 8");
+		incomeWbonus.setProduct("New Heights 9");
 		incomeWbonus.setTaxStatus("Non-Qualified");
 		incomeWbonus.click_EAFE_A();
 		incomeWbonus.clickJoint();
@@ -1194,7 +1193,7 @@ public class TestScenarios {
 		edbWBonus.waitTimer();
 		edbWBonus.setCaseRequiredFields();
 		edbWBonus.waitTimer();
-		edbWBonus.setProduct("New Heights 8");
+		edbWBonus.setProduct("New Heights 9");
 		edbWBonus.setTaxStatus("Non-Qualified");
 		edbWBonus.click_SP500_A();
 		edbWBonus.setPurchasePayment("750000");
@@ -1306,7 +1305,7 @@ public class TestScenarios {
 		edbWBonus.waitTimer();
 		edbWBonus.clickOverrideFixed();
 		edbWBonus.waitTimer();
-		edbWBonus.setRateIllustration("2.50%");
+		edbWBonus.setRateIllustration("3.50%");
 		edbWBonus.clickSave();
 		edbWBonus.waitTimer();
 		edbWBonus.clickPreviewReport();
@@ -1442,7 +1441,7 @@ public class TestScenarios {
 		.nextInt(naicStates.length)]);
 		none.setStateModal(randomState);
 		none.setCaseRequiredFields();
-		none.setProduct("New Heights 8");
+		none.setProduct("New Heights 9");
 		none.setTaxStatus("Non-Qualified");
 		none.click_SP500_A();
 		none.setPurchasePayment("500000");
@@ -1508,7 +1507,7 @@ public class TestScenarios {
 		none.clickLevelAssumed();
 		none.waitTimer();
 		none.clickOverrideFixed();
-		none.setRateIllustration("3.00%");
+		none.setRateIllustration("4.00%");
 		none.clickSave();
 		none.waitTimer();
 		none.clickPreviewReport();
@@ -1620,10 +1619,10 @@ public class TestScenarios {
 		income.click_EAFE_A();
 		income.clickSingle();
 		income.clickPurchaseIllustration();
-		income.setPurchasePayment("50000000");
+		income.setPurchasePayment("25000");
 		income.clickNextCase();
-		income.setContinueAlertOver1m();
-		income.clickNextContinueAlertOver1m();
+		//income.setContinueAlertOver1m();
+		//income.clickNextContinueAlertOver1m();
 		income.waitTimer();
 
 		income.setProfileRequiredTab();
@@ -1672,7 +1671,7 @@ public class TestScenarios {
 		income.waitTimer();
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Non-Qualified");
 		income.click_SP500_B();
 		income.clickIncomeIllustration();
@@ -1708,7 +1707,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.waitTimer();
 		income.clickOverrideFixed();
-		income.setRateIllustration("3.00%");
+		income.setRateIllustration("4.00%");
 		income.clickSave();
 		income.waitTimer();
 		income.clickPreviewReport();
@@ -1735,7 +1734,7 @@ public class TestScenarios {
 		Income income = new Income(driver);
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Qualified");
 		income.click_EAFE_B();
 		income.clickSingle();
@@ -1795,7 +1794,7 @@ public class TestScenarios {
 		Income income = new Income(driver);
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Qualified");
 		income.click_EAFE_B();
 		income.clickSingle();
@@ -1861,10 +1860,10 @@ public class TestScenarios {
 		incomeWbonus.setTaxStatus("Qualified");
 		incomeWbonus.click_SP500_B();
 		incomeWbonus.clickJoint();
-		incomeWbonus.setPurchasePayment("40000000");
+		incomeWbonus.setPurchasePayment("40000");
 		incomeWbonus.clickNextCase();
-		incomeWbonus.setContinueAlertOver1m();
-		incomeWbonus.clickNextContinueAlertOver1m();
+		//incomeWbonus.setContinueAlertOver1m();
+		//incomeWbonus.clickNextContinueAlertOver1m();
 		incomeWbonus.waitTimer();
 
 		incomeWbonus.setProfileRequiredTab();
@@ -2200,7 +2199,7 @@ public class TestScenarios {
 		EDB edb = new EDB(driver);
 		edb.setCaseRequiredFields();
 		edb.waitTimer();;
-		edb.setProduct("New Heights 8");
+		edb.setProduct("New Heights 9");
 		edb.setTaxStatus("Non-Qualified");
 		edb.click_SP500_A();
 		edb.setPurchasePayment("750000");
@@ -2460,7 +2459,7 @@ public class TestScenarios {
 		edbWBonus.waitTimer();
 
 		edbWBonus.waitTimer();
-		edbWBonus.setProduct("New Heights 8");
+		edbWBonus.setProduct("New Heights 9");
 		edbWBonus.setTaxStatus("Non-Qualified");
 		edbWBonus.click_SP500_B();
 		edbWBonus.setPurchasePayment("750000");
@@ -3017,7 +3016,7 @@ public class TestScenarios {
 		none.setCaseRequiredFields();
 		none.waitTimer();
 
-		none.setProduct("New Heights 8");
+		none.setProduct("New Heights 9");
 		none.setTaxStatus("Qualified");
 		none.click_MOZAIC_II_B();
 		none.setPurchasePayment("1000000");
@@ -3074,13 +3073,13 @@ public class TestScenarios {
 		income.waitTimer();
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Non-Qualified");
 		income.click_MOZAIC_II_A();
-		income.setPurchasePayment("50000000");
+		income.setPurchasePayment("356000");
 		income.clickNextCase();
-		income.setContinueAlertOver1m();
-		income.clickNextContinueAlertOver1m();
+		//income.setContinueAlertOver1m();
+		//income.clickNextContinueAlertOver1m();
 		income.waitTimer();
 
 		income.setProfileRequiredTab();
@@ -3094,7 +3093,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.clickOverrideFixed();
 		income.waitTimer();
-		income.setRateIllustration("2.00%");
+		income.setRateIllustration("4.00%");
 		income.waitTimer();
 		income.clickSave();
 		income.waitTimer();
@@ -3168,7 +3167,7 @@ public class TestScenarios {
 		incomeWbonus.clickLevelAssumed();
 		incomeWbonus.clickOverrideFixed();
 		incomeWbonus.waitTimer();
-		incomeWbonus.setRateIllustration("3.00%");
+		incomeWbonus.setRateIllustration("4.00%");
 		incomeWbonus.waitTimer();
 		incomeWbonus.clickSave();
 		incomeWbonus.waitTimer();
@@ -3325,7 +3324,7 @@ public class TestScenarios {
 	}
 	
 	// *********************************************** ZEBRA *********************************************************
-	
+
 	@Test(groups = { "None", "Zebra", "LevelAssumed" })
 	public void TS51_NoneZebraLevelAssumed() throws InterruptedException,
 	IOException {
@@ -3366,7 +3365,7 @@ public class TestScenarios {
 		none.clickLevelAssumed();
 		none.clickOverrideFixed();
 		none.waitTimer();
-		none.setRateIllustration("4.00%");
+		none.setRateIllustration("1.00%");
 		none.waitTimer();
 		none.clickSave();
 		none.waitTimer();
@@ -3395,7 +3394,7 @@ public class TestScenarios {
 		income.waitTimer();
 
 		income.setCaseRequiredFields();
-		income.setProduct("New Heights 8");
+		income.setProduct("New Heights 9");
 		income.setTaxStatus("Non-Qualified");
 		income.click_ZEBRA_A();
 		income.setPurchasePayment("800000");
@@ -3412,7 +3411,7 @@ public class TestScenarios {
 		income.clickLevelAssumed();
 		income.clickOverrideFixed();
 		income.waitTimer();
-		income.setRateIllustration("1.50%");
+		income.setRateIllustration("1.00%");
 		income.waitTimer();
 		income.clickSave();
 		income.waitTimer();
@@ -3486,7 +3485,7 @@ public class TestScenarios {
 		incomeWbonus.clickLevelAssumed();
 		incomeWbonus.clickOverrideFixed();
 		incomeWbonus.waitTimer();
-		incomeWbonus.setRateIllustration("2.50%");
+		incomeWbonus.setRateIllustration("1.00%");
 		incomeWbonus.waitTimer();
 		incomeWbonus.clickSave();
 		incomeWbonus.waitTimer();
@@ -4875,17 +4874,13 @@ public class TestScenarios {
 		URL url = new URL(driver.getCurrentUrl());		
 		finishLoadTime = System.currentTimeMillis();
 		/*try {
-
 			BufferedInputStream fileToParse = new BufferedInputStream(url.openStream());
-
 			PDFParser parser = new PDFParser(fileToParse);
 			parser.parse();
-
 			//save pdf text into output variable
 			String output = new PDFTextStripper().getText(parser.getPDDocument());
 			//System.out.println(output);
 			parser.getPDDocument().close();
-
 			Assert.assertTrue(output.contains("This report is not complete unless all pages are included"));
 			Assert.assertTrue(output.contains("Fixed indexed annuities are contracts you buy"));
 			Assert.assertTrue(output.contains("This illustration assumes that the Balanced Allocation"));
